@@ -6,6 +6,9 @@ import premier_league from "@/public/premier_league.jpg";
 import train_reservation from "@/public/train_reservation.jpg";
 import elegance from "@/public/elegance.gif";
 import emoscape from "@/public/emoscape.gif";
+import dp from "@/public/DP.png";
+
+export const PROFILE_IMAGE_URL = dp;
 
 export const links = [
   {
