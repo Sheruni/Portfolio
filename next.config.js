@@ -1,15 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export", // Ensures static export
+  basePath: "/Portfolio", // Replace with your GitHub repo name
+  assetPrefix: "/Portfolio/",
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-    ],
-  },
-  experimental: {
-    serverActions: true,
+    unoptimized: true, // Required for GitHub Pages
   },
 };
 
