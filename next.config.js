@@ -6,7 +6,6 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for GitHub Pages
   },
-  experimental: {},
 };
 
 module.exports = nextConfig;
