@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for GitHub Pages
   },
+  experimental: {
+    serverActions: false, // ❌ Disable Server Actions for static export
+  },
 };
 
 module.exports = nextConfig;
