@@ -16,11 +16,11 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_lv5ak1r", // 🔹 Replace with your EmailJS Service ID
-        "template_7ob696o", // 🔹 Replace with your EmailJS Template ID
+        process.env.NEXT_PUBLIC_SERVICE_ID as string, 
+        process.env.NEXT_PUBLIC_TEMPLATE_ID as string,
         event.currentTarget,
-        "6ssqTvluWd2C4-QuN" // 🔹 Replace with your EmailJS Public Key
-      )
+        process.env.NEXT_PUBLIC_PUBLIC_KEY as string
+      ) 
       .then(
         () => {
           toast.success("Email sent successfully!");
