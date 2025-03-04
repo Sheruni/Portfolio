@@ -8,8 +8,10 @@ import elegance from "@/public/elegance.gif";
 import emoscape from "@/public/emoscape.gif";
 import bugscope from '@/public/bugscope.gif';
 import dp from "@/public/DP.png";
+import cv from "@/public/CV.pdf";
 
 export const PROFILE_IMAGE_URL = dp;
+export const CV = cv;
 
 export const links = [
   {
