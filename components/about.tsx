@@ -27,7 +27,7 @@ export default function About() {
         and engagement.
       </p>
       <p>
-      My passion also lies in <span className="font-medium">Business Intelligence and Analytics</span>, 
+      My passion also lies in <span className="font-medium">Data Analytics</span>, 
         where I aim to leverage data-driven insights to create futuristic solutions for businesses. Beyond technology, I have a 
         deep appreciation for piano music and enjoy reading books on life, technology, and psychology in 
         my free time, always looking to expand my knowledge and perspective.
